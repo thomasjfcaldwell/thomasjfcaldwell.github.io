@@ -1,0 +1,21 @@
+body {
+  background: #98FB98;
+} 
+h2 {
+  font-size: : large;
+  font-family: Verdana, sans-serif;
+  font-style: italic;
+  color: #ffffff;
+}
+p {
+  font-size: : small;
+  font-family: Verdana, sans-serif;
+}
+ul {
+  font-size: : 20px;
+  font-family: Verdana, sans-serif;
+}
+img {
+  max-width: 75%;
+  height: auto;
+}
