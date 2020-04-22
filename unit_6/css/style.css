@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@900&family=Roboto+Slab:wght@300;600&display=swap');
+
+#wrapper{
+	width:1600px;
+	margin: 0 auto;
+}
+
+body{
+	font-size: 16px;
+	font-family: "Roboto",serif;
+}
+#tagline{
+	font-family: "Montserrat", sans-serif;
+	font-weight: normal;
+	font-size: 4em;
+}
+h2,h3,h4{
+	font-family: "Montserrat", sans-serif;
+}
+.navtop,.navbottom{
+
+	text-transform: uppercase;
+	font-family:"Montserrat", sans-serif;
+}
+
 header{
 	background-color: #FFED74;
     border: 1px black solid;
