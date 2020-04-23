@@ -8,26 +8,27 @@
 	</head>
 
 	<body>
+		<div id="wrapper">
 
 		<header>
 					<h1>Thomas Caldwell Marketing</h1>
 
-			  <nav>
-					<a href="#">Home</a>
-					<a href="#">List of Services</a>
-					<a href="#">Examples of Work</a>
-					<a href="#">Contact</a>
+				  <nav>
+
+					<a Class="topnav" href="#">Home</a>
+					<a Class="topnav" href="#">List of Services</a>
+					<a Class="topnav" href="#">Examples of Work</a>
+					<a Class="topnav" href="#">Contact</a>
 			  </nav>
 
 		</header>
 
 			<section class="headline">
 
-					<h1>First Impressions last forever….make it memorable.</h1>
+					<h1 id= "tagline"> First Impressions last forever….make it memorable.</h1>
 					<p> Give your company the best chances of succuess</p>
 					<a href="#"> Find out why here</a>
-					<img src= "images/huntingtonbeach.jpg" alt="Picture of Beach" title="beach">
-
+					<img src= "huntingtonbeach.jpg" alt="Picture of Beach" title="beach">
 			</section>
 
 			<section class="about">
@@ -47,7 +48,9 @@
 
 			</section>
 
-			<section class="expections">
+			<section id="two_column" class="clearfix">
+
+				<article id="right">
 
 					<h3>What to expect:</h3>
 
@@ -59,14 +62,15 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
 					<h4>deliver</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				</article>
 
-			</section>
-
-			<section class="previous">
+				<aside id="left">
 
 					<h2>Previous Work</h2>
 	 
 					<p>Check out Thomas’ previous work <a href="www.bbc.com">here</a>
+
+				</aside>
 
 			</section>
 
@@ -97,18 +101,44 @@
 
 					<h2>Services Available</h2>
 
+					
+					<div class="marketing services">
+					<img src="marketing-email.png"alt="email marketing icon" title="email marketing">
 					<h3>Email Marketing</h3> 
 					<p>Have a email list that you’d like to keep in touch with.</p>
+					</div>
+					
+
+					<div class="marketing services">
+					<img src="#"alt="scoial media icon" title="social media">
 					<h3>Social Media</h3> 
 					<p>Stay in front of your audience by posting regularly on social media.</p>
+					</div>
+					
+					<div class="marketing services">
+					<img src="#"alt="website design icon" title="website design">
 					<h3>Website design/maintenance</h3>
 					<p>If your website needs upgrading or something isn’t quite right then a potential customer will move on quickly - you have 30 seconds to grab there attention make the most of it.</p> 
-					<h3>Brochures, flyers etc</h3>
+					</div>
 
+					
+					<div class="marketing services">
+					<img src="#"alt="print icon" title="print">
+					<h3>Brochures, flyers etc</h3>
+					<p>If your website needs upgrading or something isn’t quite right then a potential customer will move on quickly - you have 30 seconds to grab there attention make the most of it.</p> 
+					</div>
+
+					<div class="marketing services">
+					<img src="#"alt="SEO icon" title=" SEO">
 					<h3>SEO</h3>
 					<p>Get higher up the search engine listing, be ahead of the competention</p>
+					</div>
+
+					<div class="marketing services">
+					<img src="#"alt="product Photography icon" title="Product Photography">	
 					<h3>Product Photography</h3>
 					<p>Make your products pop out the screen for maximum</p>
+					</div>
 
 			</section> 
 
@@ -129,13 +159,14 @@
 					<a href="#">Go back to top</a>
 
 
-					 <nav>
+					 <nav id="bottomnav">
 						<a href="#">Home</a>
 						<a href="#">List of Services</a>
 						<a href="#">Examples of Work</a>
 						<a href="#">Contact</a>
 					  </nav>
 		</footer>
+		</div>
 
 	</body>
 </html>
